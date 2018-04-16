@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent" android:layout_height="match_parent" android:background="@drawable/nba4">
+
+
+<EditText
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:inputType="textPersonName"
+    android:ems="10"
+    android:id="@+id/activity2_userName"
+    android:textSize="20sp"
+    android:focusableInTouchMode="false"
+    android:focusable="false"
+    android:background="@null"
+    android:layout_marginLeft="35sp"
+    android:foregroundGravity="right"
+    android:gravity="right|center_vertical"
+    android:paddingRight="10sp"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentEnd="true"
+    android:textColor="#000000"
+    android:textStyle="bold|italic"/>
+
+    <EditText
+        android:id="@+id/activity2_userAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/activity2_userName"
+        android:background="@null"
+        android:ems="10"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:foregroundGravity="right"
+        android:gravity="right|center_vertical"
+        android:inputType="textPersonName"
+        android:paddingRight="35sp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="50dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:paddingTop="50dp"
+        tools:context=".MenuActivity">
+
+        <TextView
+            android:layout_width="104dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/title_Memory"
+            android:textColor="#000000"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/button_2x2_game"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/alert_dark_frame"
+            android:text="@string/menu_option_2x2_game"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/button_4x4_game"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/alert_dark_frame"
+            android:text="@string/menu_option_4x4_game"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/button_6x6_game"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/alert_dark_frame"
+            android:text="@string/menu_option_6x6_game"
+            android:textColor="#ffffff" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

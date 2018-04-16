@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+android:background = "@drawable/nba_1">
+
+<EditText
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:inputType="textPersonName"
+    android:text="Timer: 60 seconds"
+    android:ems="10"
+    android:layout_marginStart="10dp"
+    android:id="@+id/timer_game"
+    android:textSize="18sp"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentStart="true"
+    android:layout_marginTop="11dp"
+    android:focusable="false"
+    android:background="@null"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/userName"
+        android:textSize="20sp"
+        android:focusableInTouchMode="false"
+        android:focusable="false"
+        android:background="@null"
+        android:layout_marginLeft="35sp"
+        android:foregroundGravity="right"
+        android:gravity="right|center_vertical"
+        android:paddingRight="10sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#000000"
+        android:textStyle="bold|italic"/>
+
+    <EditText
+        android:id="@+id/userAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/userName"
+        android:background="@null"
+        android:ems="10"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:foregroundGravity="right"
+        android:gravity="right|center_vertical"
+        android:inputType="textPersonName"
+        android:paddingRight="35sp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <GridLayout
+        android:id="@+id/grid_layout_for_all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center|fill_horizontal"
+        android:layout_marginTop="94dp"
+        android:columnCount="6"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:rowCount="6">
+
+    </GridLayout>
+
+</RelativeLayout>

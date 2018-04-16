@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Memory Game</string>
+    <string name="title_Memory">Memory Game</string>
+    <string name="menu_option_4x4_game">MEDIUM</string>
+    <string name="menu_option_2x2_game">EASY</string>
+    <string name="menu_option_6x6_game">HARD</string>
+</resources>
